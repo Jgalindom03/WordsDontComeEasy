@@ -15,3 +15,5 @@ const StartComp: FunctionComponent = () => {
 };
 
 export default StartComp;
+
+//Pasamos el start de componente a la carpeta islands para ejecutarlo en el cliente.

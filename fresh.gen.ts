@@ -9,7 +9,9 @@ import * as $_layout from "./routes/_layout.tsx";
 import * as $hihihi from "./routes/hihihi.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $CustomHeader from "./islands/CustomHeader.tsx";
+import * as $Form from "./islands/Form.tsx";
 import * as $HiButton from "./islands/HiButton.tsx";
+import * as $start from "./islands/start.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -23,7 +25,9 @@ const manifest = {
   },
   islands: {
     "./islands/CustomHeader.tsx": $CustomHeader,
+    "./islands/Form.tsx": $Form,
     "./islands/HiButton.tsx": $HiButton,
+    "./islands/start.tsx": $start,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
